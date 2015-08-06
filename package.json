@@ -18,6 +18,7 @@
     "start": "http-server"
   },
   "devDependencies": {
+    "babel": "^5.8.21",
     "babelify": "^6.1.3",
     "browserify": "^11.0.1",
     "node-sass": "^3.2.0"
