@@ -12,14 +12,17 @@
   },
   "homepage": "https://github.com/trevordmiller/social-pics#readme",
   "scripts": {
+    "test": "mocha --compilers js:babel/register",
     "build:js": "browserify src/scripts/main.js -t babelify -o dist/main.js",
     "build:css": "node-sass src/styles/main.scss > dist/main.css",
     "build": "npm run build:js && npm run build:css",
     "start": "http-server"
   },
   "devDependencies": {
+    "babel": "^5.8.21",
     "babelify": "^6.1.3",
     "browserify": "^11.0.1",
+    "mocha": "^2.2.5",
     "node-sass": "^3.2.0"
   },
   "dependencies": {
