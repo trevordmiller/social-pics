@@ -1,31 +1,10 @@
 {
-  "name": "social-pics",
-  "version": "1.0.0",
-  "description": "A step by step walkthrough of setting up tests and Continuous Integration with a JavaScript image sharing app (for an https://egghead.io series of lessons).",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/trevordmiller/social-pics"
-  },
-  "author": "Trevor D. Miller <trevordmiller@icloud.com> (www.trevordmiller.com)",
-  "bugs": {
-    "url": "https://github.com/trevordmiller/social-pics/issues"
-  },
-  "homepage": "https://github.com/trevordmiller/social-pics#readme",
   "scripts": {
-    "test": "mocha --compilers js:babel/register",
-    "build:js": "browserify src/scripts/main.js -t babelify -o dist/main.js",
-    "build:css": "node-sass src/styles/main.scss > dist/main.css",
-    "build": "npm run build:js && npm run build:css",
-    "start": "http-server"
+    "test": "mocha --compilers js:babel/register"
   },
   "devDependencies": {
     "babel": "^5.8.21",
     "babelify": "^6.1.3",
-    "browserify": "^11.0.1",
-    "mocha": "^2.2.5",
-    "node-sass": "^3.2.0"
-  },
-  "dependencies": {
-    "http-server": "^0.8.0"
+    "browserify": "^11.0.1"
   }
 }
