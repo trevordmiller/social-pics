@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Social Pics</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="main.css" rel="stylesheet"/>
+	</head>
+
+	<body>
+
+		<main class="wrapper">
+			<figure class="figure">
+				<img class="figure__picture-preview" src="https://placehold.it/600x400?text=Picture" alt="..." />
+
+				<form class="figure__form">
+					<div class="figure__caption-block">
+						<label class="figure__label" for="picture">Picture URL</label>
+						<input class="figure__picture" type="text" id="picture" />
+					</div>
+					<div class="figure__caption-block">
+						<label class="figure__label" for="hashtag">Hashtag</label>
+						<input class="figure__hashtag" type="text" id="hashtag" />
+					</div>
+					<div class="figure__caption-block">
+						<label class="figure__label" for="caption">Caption</label>
+						<textarea class="figure__caption" id="caption"></textarea>
+					</div>
+					<a class="figure__share button" href="#">Share</a>
+				</form>
+			</figure>
+		</main>
+
+		<script src="main.js"></script>
+	</body>
+
+</html>

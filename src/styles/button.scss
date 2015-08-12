@@ -1,0 +1,18 @@
+.button {
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	margin: $spacing--base auto;
+	background: $color__primary;
+	color: $color__white;
+	padding: $spacing--base;
+	border-radius: $border-radius--base;
+	font-size: $font-size--m;
+	transition: background $transition__speed--base;
+
+	&:hover,
+	&:active,
+	&:focus {
+		background: $color__primary--light;
+	}
+}

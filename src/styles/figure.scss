@@ -1,0 +1,35 @@
+.figure {
+	max-width: $breakpoint--base;
+	margin: 0 auto;
+
+	&__picture-preview {
+		min-width: 0;
+		width: 100%;
+		height: auto;
+		border-radius: $border-radius--base;
+		margin: 0 0 $spacing--base;
+	}
+
+	&__form {
+	}
+
+	&__label {
+		font-size: $font-size--m;
+		font-family: $font-family--light;
+		font-weight: 300;
+		display: block;
+		margin: 0 0 $spacing--s;
+	}
+
+	&__caption-block:not(:last-of-type) {
+		margin-bottom: $spacing--base;
+	}
+
+	&__caption {
+		margin: 0;
+	}
+
+	&__hashtag {
+		margin: 0;
+	}
+}
